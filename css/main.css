@@ -83,11 +83,10 @@ nav .profile-link {
 .blog-container-home {
     width: 100%;
     height: 94.6%;
-    background-image: url("/assets/img/Cover3.jpg");
+    background-image: url("../assets/img/Cover3.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 
 .page-title-container {
