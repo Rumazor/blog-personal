@@ -170,7 +170,7 @@ nav .profile-link {
 .blogs-news-container {
     background-color: #e6e9ed;
     padding: 40px 60px 40px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .principal-text p {
@@ -204,7 +204,8 @@ nav .profile-link {
 }
 
 .blogs-posts-container {
-    padding: 0 60px 0 60px;
+    max-width: 1200px;
+    margin: auto;
     margin-bottom: 40px;
 }
 
@@ -251,6 +252,42 @@ h4 {
     width:100%;
 }
 
+/* ------>BLOG<------- */
+
+.blogpost-img-container {
+    padding: 0 40px 10px;
+}
+
+.blogpost-img-container img {
+    margin-top: 30px;
+    border-radius: 10px;
+    width:100%;
+}
+
+.blogpost-main-container {
+    padding: 0 20px 40px;
+}
+
+.blogpost-main-container h3 {
+    text-align: start;
+}
+
+.blogpost-main-container h2 {
+    font-size: 32px;
+}
+
+.blogs-posts-container p {
+    margin-top: 30px;
+}
+
+.contact-main-container {
+    background-color: #e6e9ed;
+}
+
+
+
+
+/* ---->FOOTER<----- */
 footer {
     width: 100%;
     height: 80px;
