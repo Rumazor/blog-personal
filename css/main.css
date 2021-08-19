@@ -334,6 +334,68 @@ h4 {
     width: 100px;
 }
 
+/* ----->PERFIL<----- */
+
+.profile-main-container {
+    padding: 60px 30px;
+    background-color: #e6e9ed;
+    margin-bottom: 50px;
+}
+
+.profile-main-container .profile-container {
+    display:flex;
+}
+
+.profile-main-container img {
+    width:320px;
+    height:520px;
+    margin-right: 70px;
+    border-radius: 30%;
+    box-shadow: 0px 4px 8px rgb(89 73 30 / 36%);
+}
+
+.profile-description {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 34;
+}
+
+.profile-description span {
+    color: rgba(18,213,143,1);
+}
+
+.profile-description p {
+    font-size: 18px;
+
+}
+
+.profile-main-projects {
+    padding: 0 50px 40px;
+}
+
+.profile-main-projects h3 {
+    text-align: center;
+}
+
+.projects-main-container {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 20px;
+}
+
+.project-container {
+    padding: 0 20px;
+    text-align: center;
+}
+
+.project-container p {
+    padding-bottom: 20px;
+}
+.project-container img {
+    width: 100%;
+    
+}
+
+
 /* ---->FOOTER<----- */
 footer {
     width: 100%;
